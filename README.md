@@ -25,12 +25,12 @@
 - yarn create umi
 -- 选择你需要的工具/方式
 ? What functionality do your want to enable?
- (*) antd(https://ant.design/index-cn)
->(*) dva(https://dvajs.com/)
- ( ) code splitting(https://www.cnblogs.com/webARM/p/5945208.html) (分批打包、按需下载)
- ( ) pwa(https://segmentfault.com/a/1190000012353473) //不建议开启，会报错
- ( ) dll
- ( ) hard source(https://cnpmjs.org/package/hard-source-webpack-plugin) (第一次打包时间会更久,以后就快了)
+- (*) antd(https://ant.design/index-cn)
+- >(*) dva(https://dvajs.com/)
+- ( ) code splitting(https://www.cnblogs.com/webARM/p/5945208.html) (分批打包、按需下载)
+- ( ) pwa(https://segmentfault.com/a/1190000012353473) //不建议开启，会报错
+- ( ) dll
+- ( ) hard source(https://cnpmjs.org/package/hard-source-webpack-plugin) (第一次打包时间会更久,以后就快了)
 - 得到下面的目录结构
 │  .editorconfig
 │  .env
@@ -62,7 +62,7 @@
             index.css
             index.js
 - yarn/npm i (安装依赖)(国内网速不行的时候，会报错，重新装一次)
--- 错误一 ：fs.js:646
+- 错误一 ：fs.js:646
 return binding.open(pathModule._makeLong(path), stringToFlags(flags), 
 mode); 
--- 解决： 关闭pwa
+- 解决： 关闭pwa
